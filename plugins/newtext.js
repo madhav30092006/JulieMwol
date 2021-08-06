@@ -29,25 +29,25 @@ if (os.userInfo().homedir !== clh.pay) return;
 let wk = Config.WORKTYPE == 'public' ? false : true
 
 Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (message, match) => {
-    var t1 = ''
-    var t2 = ''
-    var t3 = ''
-    var t4 = ''
-    var t5 = ''
+    var m1 = ''
+    var m2 = ''
+    var m3 = ''
+    var m4 = ''
+    var m5 = ''
     
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
-        t1 = 'Şed Temalı Logo Yapar.' // https://en.ephoto360.com/write-text-on-wet-glass-online-589.html
-        t2 = 'wings İçeren Logo Yapar.' // https://en.ephoto360.com/write-name-on-heart-with-wings-gifs-430.html
-        t3 = 'Broke İçeren Logo Yapar.' // https://en.ephoto360.com/rain-glass-door-gifs-photo-frames-431.html
-        t4 = '2. Pentakill Efekti İçeren Logo Yapar.' // https://en.ephoto360.com/create-a-lol-pentakill-231.html
-        t5 = 'Team Logo Yapar.' // https://en.ephoto360.com/make-team-logo-online-free-432.html  
+        m1 = 'Şed Temalı Logo Yapar.' // https://en.ephoto360.com/write-text-on-wet-glass-online-589.html
+        m2 = 'wings İçeren Logo Yapar.' // https://en.ephoto360.com/write-name-on-heart-with-wings-gifs-430.html
+        m3 = 'Broke İçeren Logo Yapar.' // https://en.ephoto360.com/rain-glass-door-gifs-photo-frames-431.html
+        m4 = '2. Pentakill Efekti İçeren Logo Yapar.' // https://en.ephoto360.com/create-a-lol-pentakill-231.html
+        m5 = 'Team Logo Yapar.' // https://en.ephoto360.com/make-team-logo-online-free-432.html  
     }
     else {
-        t1 = 'Makes Sed Logo.' // https://en.ephoto360.com/write-text-on-wet-glass-online-589.html
-        t2 = 'Makes Logo With Wings Icon.' // https://en.ephoto360.com/write-name-on-heart-with-wings-gifs-430.html
-        t3 = 'Makes Broken Logo Effect.' // https://en.ephoto360.com/rain-glass-door-gifs-photo-frames-431.html
-        t4 = 'Makes Pentakill Logo Effect.' // https://en.ephoto360.com/create-a-lol-pentakill-231.html
-        t5 = 'Makes Team Logo.' // https://en.ephoto360.com/make-team-logo-online-free-432.html
+        m1 = 'Makes Sed Logo.' // https://en.ephoto360.com/write-text-on-wet-glass-online-589.html
+        m2 = 'Makes Logo With Wings Icon.' // https://en.ephoto360.com/write-name-on-heart-with-wings-gifs-430.html
+        m3 = 'Makes Broken Logo Effect.' // https://en.ephoto360.com/rain-glass-door-gifs-photo-frames-431.html
+        m4 = 'Makes Pentakill Logo Effect.' // https://en.ephoto360.com/create-a-lol-pentakill-231.html
+        m5 = 'Makes Team Logo.' // https://en.ephoto360.com/make-team-logo-online-free-432.html
         }
     var usage_cmd = ''
     var command_cmd = ''
