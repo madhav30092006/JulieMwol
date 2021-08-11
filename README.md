@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img border-radius: 15px src="https://hmp.me/dosk" width="200" height="200"/>
+  <img border-radius: 15px src="https://hmp.me/dosk" width="300" height="300"/>
   <p align="center">
 <a href="#"><img title="UnniKuttan" src="https://img.shields.io/badge/UnniKuttan-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
